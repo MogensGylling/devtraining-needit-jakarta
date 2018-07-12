@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group display_value="NeedIt Users" name="NeedIt Users">28e5a2e0dbb303004e7efcdfbf961955</group>
+        <link_element/>
+        <name>MGTemplate</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>MGTemplate test</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-02-08 14:01:06</sys_created_on>
+        <sys_id>d4e57257db8813004e7efcdfbf961902</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MGTemplate</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_template_d4e57257db8813004e7efcdfbf961902</sys_update_name>
+        <sys_updated_by>mogens.gylling</sys_updated_by>
+        <sys_updated_on>2018-02-08 14:02:44</sys_updated_on>
+        <table>incident</table>
+        <template>assignment_group=287ebd7da9fe198100f92cc8d1d2154e^category=software^impact=3^knowledge=false^short_description=MGTEST Description^state=1^urgency=3^EQ</template>
+        <user display_value="mogens gylling">6881ca5bdb0813004e7efcdfbf9619cf</user>
+        <view/>
+    </sys_template>
+</record_update>

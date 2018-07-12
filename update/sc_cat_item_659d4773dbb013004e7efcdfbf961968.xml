@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>MG Offer</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=659d4773dbb013004e7efcdfbf961968&amp;sysparm_preview=true", "summary");</preview>
+        <price>15.743</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>MG Offer test</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:54</sys_created_on>
+        <sys_id>659d4773dbb013004e7efcdfbf961968</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MG Offer</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_659d4773dbb013004e7efcdfbf961968</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:58:42</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=659d4773dbb013004e7efcdfbf961968"/>
+    <fx_price action="delete_multiple" query="id=659d4773dbb013004e7efcdfbf961968"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>100</amount>
+        <currency display_value="DKK">DKK</currency>
+        <field>price</field>
+        <id>659d4773dbb013004e7efcdfbf961968</id>
+        <parent/>
+        <reference_amount>16.5145</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:54</sys_created_on>
+        <sys_id>75edc373dbb013004e7efcdfbf961954</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mogens.gylling</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:49:38</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>659d4773dbb013004e7efcdfbf961968</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:54</sys_created_on>
+        <sys_id>b9edc373dbb013004e7efcdfbf961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mogens.gylling</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:48:54</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>188</image_height>
+        <image_width>268</image_width>
+        <size_bytes>2882</size_bytes>
+        <size_compressed>2892</size_compressed>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:49:01</sys_created_on>
+        <sys_id>9fedc373dbb013004e7efcdfbf96195c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mogens.gylling</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:49:01</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>659d4773dbb013004e7efcdfbf961968</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="9fedc373dbb013004e7efcdfbf96195c">9fedc373dbb013004e7efcdfbf96195c</sys_attachment>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:49:01</sys_created_on>
+        <sys_id>1fed8b73dbb013004e7efcdfbf9619d8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3736</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="9fedc373dbb013004e7efcdfbf96195c">9fedc373dbb013004e7efcdfbf96195c</sys_attachment>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:49:01</sys_created_on>
+        <sys_id>9fed8b73dbb013004e7efcdfbf9619d8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>9Ap4lsKUNeRLYw9blgUbZTk6f8BY4jW2jyf3awaea8+EXf/kMelpL8T0huhr44r738g5AmXUer3nnboKO3+GAQZ6d3VrdRyj/g0WM7bJQgsAAA==</data>
+        <length>112</length>
+        <position>2</position>
+        <sys_attachment display_value="picture" sys_id="9fedc373dbb013004e7efcdfbf96195c">9fedc373dbb013004e7efcdfbf96195c</sys_attachment>
+        <sys_created_by>mogens.gylling</sys_created_by>
+        <sys_created_on>2018-03-19 11:49:01</sys_created_on>
+        <sys_id>13ed8b73dbb013004e7efcdfbf9619d9</sys_id>
+    </sys_attachment_doc>
+</record_update>

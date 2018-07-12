@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.TableTestUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>For use in Fix Scripts and/or Scripts-Background&#13;
+Usage:  TableTestUtils.currentFactory(tableName, fieldName, order)</description>
+        <name>TableTestUtils</name>
+        <script><![CDATA[var TableTestUtils = Class.create();
+TableTestUtils.prototype = {
+	initialize: function() {
+	},
+	
+	currentFactory: function(tableName, fieldName, order) {
+		var currentRecords = new GlideRecord(tableName);
+		currentRecords.addNotNullQuery(fieldName);
+		currentRecords.setLimit(1);
+		gs.print(order.type);
+		if (order.type == 'descending') {
+			currentRecords.orderByDesc(order.field);
+		}
+		else {
+			currentRecords.orderBy(order.field);
+		}
+		currentRecords.query();
+		currentRecords.next();
+		gs.print(currentRecords.getRowCount());
+		return currentRecords;
+	},
+	
+	
+	type: 'TableTestUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 13:58:44</sys_created_on>
+        <sys_id>a8602d77dbb213004e7efcdfbf9619a6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TableTestUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_a8602d77dbb213004e7efcdfbf9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 07:30:57</sys_updated_on>
+    </sys_script_include>
+</record_update>
